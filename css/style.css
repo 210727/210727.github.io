@@ -324,17 +324,17 @@ PORTFOLIO
 }
 
 .btn-primary{
-	background: #fa5c58;
+	background: #FF6600;
 	border-width: 2px;
 	color: #fff;
-	border-color: #fa5c58;
+	border-color: #FF6600;
 }
 
 .btn-primary:hover,
 .btn-primary:focus{
 	background: #fff;
-	color: #fa5c58;
-	border-color: #fe4a46;
+	color: #FF6600;
+	border-color: #FF6600;
 }
 
 
