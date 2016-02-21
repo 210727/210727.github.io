@@ -33,6 +33,7 @@ section header{
 
 p{
 	color: #808080;
+	font-size: 10px;
 }
 
 address{
@@ -408,4 +409,8 @@ ul.social-icons > li > a{
 	.jumbotron .h1 {
 		font-size: 75px;
 	}
+}
+
+.cover-bg-more{
+
 }
