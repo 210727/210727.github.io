@@ -36,6 +36,10 @@ p{
 	font-size:20px;
 }
 
+p.smaller{
+	font-size: 14px;
+}
+
 address{
 	margin-bottom: 50px;
 }
