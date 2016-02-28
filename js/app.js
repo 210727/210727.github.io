@@ -26,6 +26,7 @@ $('.menu  a').on('click', function(e) {
 });
 
 function changeImage(element) {
+    alert("changeImage");
     document.getElementById("imgClickAndChange").src = element;
     document.getElementById("titleClickAndChange").innnerHTML = "test";
 }
