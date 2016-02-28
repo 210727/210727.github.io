@@ -25,6 +25,9 @@ $('.menu  a').on('click', function(e) {
     $('nav').removeClass('nav-expanded');
 });
 
+function changeImage(element) {
+    document.getElementById("imgClickAndChange").src = element;
+}
 
 //Calculate full with of jumbotron.
  function homeFullScreen() {
