@@ -106,12 +106,12 @@
 			</div>
 			<div class="row">
 				<div class="col-md-8">
-					<form class="row">
+					<form class="row" method="post" action="index.php">
 						<div class="form-group col-md-6">
 							<input name="name" type="text" placeholder="Your Name" class="form-control" />
 						</div>
 						<div class="form-group col-md-6">
-							<input name="mail" type="email" placeholder="Your Email Address" class="form-control" />
+							<input name="email" type="email" placeholder="Your Email Address" class="form-control" />
 						</div>
 						<div class="form-group col-md-12">
 							<input name="subject" type="text" placeholder="Type Subject" class="form-control" />
@@ -120,7 +120,7 @@
 							<textarea name="message" class="form-control" rows="10" placeholder="Type Message"></textarea>
 						</div>
 						<div class="form-group col-md-12">
-							<button class="btn btn-lg btn-primary">Send</button>
+							<button class="btn btn-lg btn-primary" name="submit" type="submit">Send</button>
 						</div>
 					</form>
 				</div>
