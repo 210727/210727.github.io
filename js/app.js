@@ -26,8 +26,18 @@ $('.menu  a').on('click', function(e) {
 });
 
 function changeImage(element) {
+    var myspan = document.getElementById("titleClickAndChange");
+
     document.getElementById("imgClickAndChange").src = element;
-    document.getElementById("titleClickAndChange").innnerHTML = "test";
+
+    if(myspan.innerText)
+    {
+        myspan.innerText = "new Text";
+    }
+    else(myspan.textContent)
+    {
+        myspan.textContent = "new text content";
+    }
 }
 
 //Calculate full with of jumbotron.
