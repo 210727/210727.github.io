@@ -419,3 +419,8 @@ p.margin{
 margin-left: 130px;  
 margin-right:130px;
 }
+
+.iframemargin{
+	margin: 130px;
+}
+
