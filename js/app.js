@@ -27,6 +27,7 @@ $('.menu  a').on('click', function(e) {
 
 function changeImage(element) {
     document.getElementById("imgClickAndChange").src = element;
+    document.getElementById("titleClickAndChange").innnerHTML = "test";
 }
 
 //Calculate full with of jumbotron.
