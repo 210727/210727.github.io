@@ -29,7 +29,7 @@ function changeImage(element) {
     var myspan = document.getElementById("titleClickAndChange");
 
     document.getElementById("imgClickAndChange").src = element;
-
+/*
     if(myspan.innerText)
     {
         myspan.innerText = "new Text";
@@ -38,6 +38,7 @@ function changeImage(element) {
     {
         myspan.textContent = "new text content";
     }
+    */
 }
 
 //Calculate full with of jumbotron.
