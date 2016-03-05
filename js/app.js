@@ -306,7 +306,7 @@ google.maps.Map.prototype.setCenterWithOffset= function(latlng, offsetX, offsetY
  		}
  		]
  	};
-
+    alert("??????" + myLangLat);
     map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
     map.setCenterWithOffset(myLangLat, 0, -55);
 
