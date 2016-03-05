@@ -111,6 +111,7 @@ var lng = -71.087507;
 var myLangLat = new google.maps.LatLng(lat, lng);
 
 google.maps.Map.prototype.setCenterWithOffset= function(latlng, offsetX, offsetY) {
+    alert(latlng);
     var map = this;
     var ov = new google.maps.OverlayView();
     ov.onAdd = function() {
