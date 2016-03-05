@@ -434,3 +434,8 @@ p.headermar{
 	margin-left: 200px;
 	margin-right: 200px;
 }
+
+reducesize{
+	max-width:90%;
+	height:auto;
+}
