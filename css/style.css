@@ -422,6 +422,8 @@ margin-right:130px;
 
 .iframemargin{
 	margin: 130px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 p.projectinsmar{
