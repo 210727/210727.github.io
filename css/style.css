@@ -435,7 +435,7 @@ p.headermar{
 	margin-right: 200px;
 }
 
-reducesize{
+.reducesize{
 	max-width:50%;
 	height:auto;
 }
