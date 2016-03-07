@@ -42,6 +42,7 @@ function changeImage(element) {
 }
 
 function iconclicked(element) {
+    alert("iconclicked:" + element);
     var myspan = document.getElementById("titleClickAndChange");
 
     document.getElementById("imgClickAndChange").src = element;
