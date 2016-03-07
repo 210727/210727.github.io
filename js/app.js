@@ -45,6 +45,8 @@ function iconclicked(element) {
     alert("iconclicked: " + element);
     var myspan = document.getElementById("titleClickAndChange");
 
+    alert( "current src : " + document.getElementById("imgClickAndChange").src );
+    
     document.getElementById("imgClickAndChange").src = element;
 
     if(myspan.innerText)
