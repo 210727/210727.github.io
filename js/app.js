@@ -42,11 +42,11 @@ function changeImage(element) {
 }
 
 function iconclicked(element) {
-    alert("iconclicked:" + element);
+    alert("iconclicked: " + element);
     var myspan = document.getElementById("titleClickAndChange");
 
     document.getElementById("imgClickAndChange").src = element;
-/*
+
     if(myspan.innerText)
     {
         myspan.innerText = "new Text";
@@ -54,8 +54,7 @@ function iconclicked(element) {
     else(myspan.textContent)
     {
         myspan.textContent = "new text content";
-    }
-    */
+    }    
 }
 
 //Calculate full with of jumbotron.
