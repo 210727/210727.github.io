@@ -442,3 +442,9 @@ p.headermar{
 	margin:0px auto;
 	display:block;
 }
+
+.FFreducedsize{
+	max-width: 45%;
+	margin:0px auto;
+	display: block;
+}
