@@ -1,5 +1,6 @@
 <?php
     $name = $_POST['name'];
+    echo 'name: $name'; 
     $email = $_POST['email'];
     $message = $_POST['message'];
     $from = 'From: $name'; 
