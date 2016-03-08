@@ -7,8 +7,6 @@
     $subject = $_POST['subject'];
 			
     $body = "From: $name\n E-Mail: $email\n Subject: $subject\n Message:\n $message";
-
-    echo 'email body: $body'; 
 				
     if ($_POST['submit'] && $human == '4') 
     {				 
