@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Space Messenger</title>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="gamedev.js" language="javascript"></script> 
+<script type="text/javascript" src="jquery-1.11.3.js" language="javascript"></script> 
+
+</head>
+
+<body id="exploreBody">
+		<div id ="centerrectangle" align="center"> 
+			<div id="providedtext" align="center" onclick="cheat()">Attention everyone! We have a situation here. Type the messages you see in this box as fast as you can to send to people on Mars - Earth is in grave danger! There are strange creatures from an unknown planet trying to attack us. Press the "Ready to type" button when you're ready. </div> 
+			<br>
+
+			<p id="displaytext">Ready? Press "Ready to type" to start writing texts. </p>
+			<!--<form class="centerform"> -->
+				<textarea rows="10" cols="130" id="typed"></textarea>			
+				<button id="startGame" onClick="beginIt()" > Ready to type </button>
+				<button id="submitmessage" onClick="stopIt()" disabled=""> Send </button>
+			<!--</form>-->
+			<br> 
+		</div> 
+
+</body>
+</html>

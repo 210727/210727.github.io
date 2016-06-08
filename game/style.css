@@ -1,0 +1,118 @@
+body {
+
+	background-image: url("http://hd4wallpapers.net/wp-content/uploads/2016/01/Space-Wallpaper-Hd-Tumblr.jpg");
+     background-size: cover;
+     background-position: center center;
+	font-family: monospace;    
+}
+
+/*Stuff below governs the start screen*/
+.titleContent {
+	margin: 10% auto;
+    text-align: center;
+}
+
+.splashTitle {
+	color: #fff;
+    font-size: 8em;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 5px rgba(27, 25, 25, 0.74);
+}
+
+.button {    
+	border: 5px solid #660099;
+    color: #660099;
+    padding: 20px 50px;
+    font-size: 5em;
+    text-decoration: none;
+    background-color: #9F00C5;
+    box-shadow: 15px 15px 80px #555;
+    
+    /*
+    position: absolute; 
+    left: 20%; right: 20%; bottom: 5%;
+    margin-top: 15px;
+    padding: 20px 50px;
+    font-size: 5em;
+    */
+}
+  a.button:hover {
+    background-color: #5D0787;
+    color: #AC9DCC;
+  }
+
+
+
+/*Stuff below governs the Explore screen*/
+
+#exploreBody {
+	background-image: url("img/gameBG.jpg");
+	background-position: top center;
+
+}
+
+#providedtext{
+    background-color:white;
+    border-style: inset;
+    border-radius:25px;
+    width: 600px;
+    height:450px;    
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: left;
+}
+
+#centerrectangle{
+/*background: linear-gradient(to right, blue , purple);
+background-color: #2196F3;
+margin-left:auto;
+margin-top:auto;
+width:800px;
+border-radius:6px;*/
+
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 800px;
+  height: 800px;
+  background-image: url('img/bigdiv-background.png');
+  border-radius: 6px;
+
+}
+
+#submitmessage{
+    border-radius: 6px;
+    background-color:white;
+    width:90px;
+  height:25px;
+  border:none;
+
+}
+
+.centerform{
+    margin: auto;
+    position:absolute;
+}
+
+.resizedTextbox {
+    width: 100px; height: 20px;
+    font-size: 20px;
+}
+
+#startGame{
+      border-radius: 6px;
+width:90px;
+  height:25px;
+  background-color: white;
+border:none;
+}
+
+#displaytext{
+  color: white;
+  font-size:17px;
+}
